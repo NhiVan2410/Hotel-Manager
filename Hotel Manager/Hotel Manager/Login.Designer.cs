@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.goupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.chkShowPassword = new System.Windows.Forms.CheckBox();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.txtPassWord = new System.Windows.Forms.TextBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.goupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // goupBox1
@@ -58,6 +58,28 @@
             this.goupBox1.Size = new System.Drawing.Size(393, 392);
             this.goupBox1.TabIndex = 0;
             this.goupBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox2.Image = global::Hotel_Manager.Properties.Resources.login_password_3;
+            this.pictureBox2.Location = new System.Drawing.Point(17, 163);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(27, 23);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Hotel_Manager.Properties.Resources.pngtree_user_icon_png_image_5097430;
+            this.pictureBox1.Location = new System.Drawing.Point(17, 85);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(27, 21);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // btnLogin
             // 
@@ -86,6 +108,17 @@
             this.chkShowPassword.UseVisualStyleBackColor = false;
             this.chkShowPassword.CheckedChanged += new System.EventHandler(this.chkShowPassword_CheckedChanged);
             // 
+            // txtPassWord
+            // 
+            this.txtPassWord.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtPassWord.Location = new System.Drawing.Point(69, 163);
+            this.txtPassWord.Name = "txtPassWord";
+            this.txtPassWord.PasswordChar = '*';
+            this.txtPassWord.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtPassWord.Size = new System.Drawing.Size(234, 35);
+            this.txtPassWord.TabIndex = 2;
+            this.txtPassWord.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // txtUserName
             // 
             this.txtUserName.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -93,38 +126,6 @@
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(234, 35);
             this.txtUserName.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Hotel_Manager.Properties.Resources.pngtree_user_icon_png_image_5097430;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 85);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(27, 21);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox2.Image = global::Hotel_Manager.Properties.Resources.login_password_3;
-            this.pictureBox2.Location = new System.Drawing.Point(17, 163);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 23);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
-            // txtPassWord
-            // 
-            this.txtPassWord.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtPassWord.Location = new System.Drawing.Point(69, 163);
-            this.txtPassWord.Name = "txtPassWord";
-            this.txtPassWord.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtPassWord.Size = new System.Drawing.Size(234, 35);
-            this.txtPassWord.TabIndex = 2;
-            this.txtPassWord.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label1
             // 
@@ -153,8 +154,8 @@
             this.Text = "Login";
             this.goupBox1.ResumeLayout(false);
             this.goupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

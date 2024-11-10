@@ -36,6 +36,7 @@ namespace Hotel_Manager
 
         private void chkShowPassword_CheckedChanged(object sender, EventArgs e)
         {
+            // Hiện show passwoed lúc nnhaapj
             txtPassWord.PasswordChar = chkShowPassword.Checked ? '\0' : '*';
         }
     }
