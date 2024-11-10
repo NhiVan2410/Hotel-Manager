@@ -63,9 +63,29 @@ namespace Hotel_Manager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1077114 {
+            get {
+                object obj = ResourceManager.GetObject("1077114", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _15d7c8f3400943ef7b2eb8dbdcb03953 {
             get {
                 object obj = ResourceManager.GetObject("15d7c8f3400943ef7b2eb8dbdcb03953", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _231feb406f7d58c7cc18cd2c9f786026 {
+            get {
+                object obj = ResourceManager.GetObject("231feb406f7d58c7cc18cd2c9f786026", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +173,29 @@ namespace Hotel_Manager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap login_password_3 {
             get {
                 object obj = ResourceManager.GetObject("login-password-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap password_239_256 {
+            get {
+                object obj = ResourceManager.GetObject("password-239-256", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
