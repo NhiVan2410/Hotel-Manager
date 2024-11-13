@@ -12,7 +12,8 @@ namespace Hotel_Manager
         public string Username { get; set; }
         private string Password { get; set; }
         public string ContactInfo { get; set; }
-
+       
+        // Constructor
         public Person(int id, string name, string username, string password)
         {
             ID = id;
@@ -20,7 +21,7 @@ namespace Hotel_Manager
             Username = username;
             Password = password;
         }
-
+        // Getter, Setter
         public string GetPassword()
         {
             return Password;
@@ -34,21 +35,6 @@ namespace Hotel_Manager
         public virtual void PrintDetails()
         {
             Console.WriteLine($"ID: {ID}, Name: {Name}, Username: {Username}, Contact Info: {ContactInfo}");
-        }
-
-        public virtual void MakeReservation()
-        {
-            Console.WriteLine("Making a general reservation.");
-        }
-
-        public virtual void MakeReservation(int roomId)
-        {
-            Console.WriteLine($"Making a reservation for Room ID: {roomId}");
-        }
-
-        public virtual void MakeReservation(int roomId, DateTime date)
-        {
-            Console.WriteLine($"Making a reservation for Room ID: {roomId} on {date.ToShortDateString()}");
         }
     }
 }

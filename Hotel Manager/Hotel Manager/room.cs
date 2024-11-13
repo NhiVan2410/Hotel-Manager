@@ -10,15 +10,18 @@ namespace Hotel_Manager
         public int RoomID { get; set; }
         public string RoomType { get; set; }
         public double Price { get; set; }
-        public bool IsOccupied { get; set; }
+        public bool IsAvailable { get; set; }
 
-        public Room(int roomId, string roomType, double price, bool isOccupied)
+        public Room(int roomId, string roomType, double price, bool isAvailable)
         {
             RoomID = roomId;
             RoomType = roomType;
             Price = price;
-            IsOccupied = isOccupied;
+            IsAvailable = isAvailable;
         }
-
+        public void DisplayRoomDetails()
+        {
+            Console.WriteLine($"Room Id: {RoomID}, Type: {RoomType}, Price: {Price}, Available: {IsAvailable}");
+        }
     }
 }

@@ -11,12 +11,10 @@ namespace Hotel_Manager
             : base(id, name, username, password)
         {
         }
-
-        // Ghi đè phương thức PrintDetails()
-        public override void PrintDetails()
+        // Method QLIKS
+        public void ManageHotel()
         {
-            base.PrintDetails();
-            Console.WriteLine("Role: Manager");
+            Console.WriteLine("Managing the hotel...");
         }
     }
 }

@@ -20,11 +20,15 @@ namespace Hotel_Manager
             PhoneNumber = phoneNumber;
             Address = address;
         }
-
-        public override void PrintDetails()
+        // Method
+        public void MakeReservation()
         {
-            base.PrintDetails();
-            Console.WriteLine($"Gender: {Gender}, Date of Birth: {DateOfBirth.ToShortDateString()}, Phone: {PhoneNumber}, Address: {Address}");
+            Console.WriteLine("Making a reservation...");
+        }
+
+        public void RequestService()
+        {
+            Console.WriteLine("Requesting a service...");
         }
     }
 }
