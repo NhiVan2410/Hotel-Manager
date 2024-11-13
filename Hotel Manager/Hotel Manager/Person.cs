@@ -12,14 +12,21 @@ namespace Hotel_Manager
         public string Username { get; set; }
         private string Password { get; set; }
         public string ContactInfo { get; set; }
-       
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
+        public  bool IsDeleted { get; private set; }
+
         // Constructor
-        public Person(int id, string name, string username, string password)
+        public Person(int id, string name, string username, string password, string contactInfo)
         {
             ID = id;
             Name = name;
             Username = username;
             Password = password;
+            ContactInfo = contactInfo;
+            CreatedAt = DateTime.Now;
+            UpdatedAt = DateTime.Now;
+            IsDeleted = false;
         }
         // Getter, Setter
         public string GetPassword()
@@ -35,6 +42,12 @@ namespace Hotel_Manager
         public virtual void PrintDetails()
         {
             Console.WriteLine($"ID: {ID}, Name: {Name}, Username: {Username}, Contact Info: {ContactInfo}");
+        }
+        public void MarkAsDeleted()
+        {
+            IsDeleted = true;
+            UpdatedAt = DateTime.Now;
+            this.MarkAsDeleted();
         }
     }
 }
