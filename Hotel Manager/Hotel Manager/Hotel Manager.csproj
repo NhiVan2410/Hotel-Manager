@@ -33,8 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,9 +54,16 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Booking Room.cs" />
+    <Compile Include="BookingRoom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookingRoom.Designer.cs">
+      <DependentUpon>BookingRoom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Guest.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Person.cs" />
@@ -55,8 +72,17 @@
     <Compile Include="Receptionist.cs" />
     <Compile Include="Reservation.cs" />
     <Compile Include="ReservationService.cs" />
+    <Compile Include="Room Management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room Management.Designer.cs">
+      <DependentUpon>Room Management.cs</DependentUpon>
+    </Compile>
     <Compile Include="room.cs" />
     <Compile Include="Service.cs" />
+    <EmbeddedResource Include="BookingRoom.resx">
+      <DependentUpon>BookingRoom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -67,6 +93,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Room Management.resx">
+      <DependentUpon>Room Management.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,6 +129,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\231feb406f7d58c7cc18cd2c9f786026.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1072521432-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5110947.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\562725.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3436680.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\489870.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-flat-customer-service-png-image_4436647.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24-7-Helpline-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hotline-icon-vector-customer-service-Graphics-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c16574517762ef095ea8b97c5f9c8321.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dae2c159ae011463b6caa115d6502658.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7553b3ed5c52ee6883d151057975179f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dae2c159ae011463b6caa115d65026581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-booking-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-view-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-view-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-service-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

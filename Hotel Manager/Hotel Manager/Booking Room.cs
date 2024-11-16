@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel_Manager
 {
-    public class Booking_Room
+    public class BookingRoom
     {
         public int BookingId { get; set; }
         public Guest Guest { get; set; }
@@ -15,7 +15,7 @@ namespace Hotel_Manager
         public DateTime CheckInDate { get; set; }
         public DateTime CheckOutDate { get; set; }
 
-        public Booking_Room(int bookingId, Guest guest, Room room,
+        public BookingRoom(int bookingId, Guest guest, Room room,
             DateTime bookingDate, DateTime checkInDate, DateTime checkOutDate)
         {
             BookingId = bookingId;

@@ -21,6 +21,7 @@ namespace Hotel_Manager
       : base(id, name, username, password, contactInfo: "")
         {
             Gender = gender;
+            Name = name;
             DateOfBirth = dateOfBirth;
             PhoneNumber = phoneNumber;
             Address = address;
