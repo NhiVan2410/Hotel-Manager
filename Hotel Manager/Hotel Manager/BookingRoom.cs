@@ -35,21 +35,21 @@ namespace Hotel_Manager
                 MessageBox.Show($" Check Out: {Checkout}");
 
                 Guest guest = new Guest(
-            id: 1,                   // ID khách hàng (thay đổi nếu cần)
-            name: guestname,         // Tên khách hàng
-            username: "guestUsername",  // Username (cố định hoặc nhập từ giao diện)
-            password: "12345",          // Mật khẩu (cố định hoặc nhập từ giao diện)
-            gender: "Male",             // Giới tính (tùy chỉnh)
-            dateOfBirth: DateTime.Parse("1990-01-01"), // Ngày sinh (cố định hoặc nhập từ giao diện)
-            phoneNumber: "0123456789",  // Số điện thoại (tùy chỉnh)
-            address: "123 Main Street"  // Địa chỉ (tùy chỉnh)
+            id: 1,                  
+            name: guestname,         
+            username: "guestUsername",
+            password: "12345",         
+            gender: "Male",           
+            dateOfBirth: DateTime.Parse("1990-01-01"), 
+            phoneNumber: "0123456789", 
+            address: "123 Main Street" 
         );
 
                 Room room = new Room(
-         roomId: 101,           // ID phòng (tùy chỉnh)
-         roomType: RoomType,    // Loại phòng từ ComboBox
-         price: 200.0,          // Giá phòng (cố định hoặc nhập từ giao diện)
-         isAvailable: true      // Tình trạng phòng (tùy chỉnh)
+         roomId: 101,          
+         roomType: RoomType, 
+         price: 200.0,        
+         isAvailable: true     
      );
                 BookingRoom Booking = new BookingRoom(BookingID, guest, room,
                     booking, Checkin, Checkout);

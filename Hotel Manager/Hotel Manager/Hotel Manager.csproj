@@ -80,6 +80,12 @@
     </Compile>
     <Compile Include="room.cs" />
     <Compile Include="Service.cs" />
+    <Compile Include="View Reservations.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View Reservations.Designer.cs">
+      <DependentUpon>View Reservations.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BookingRoom.resx">
       <DependentUpon>BookingRoom.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="Room Management.resx">
       <DependentUpon>Room Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Reservations.resx">
+      <DependentUpon>View Reservations.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

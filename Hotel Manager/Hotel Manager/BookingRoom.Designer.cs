@@ -45,9 +45,11 @@
             // 
             // cmbRoomType
             // 
+            this.cmbRoomType.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbRoomType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cmbRoomType.FormattingEnabled = true;
             this.cmbRoomType.Items.AddRange(new object[] {
-            "Single Room",
+            "Single Room ",
             "",
             "Double Room",
             "",
@@ -58,7 +60,7 @@
             "Deluxe Room"});
             this.cmbRoomType.Location = new System.Drawing.Point(256, 106);
             this.cmbRoomType.Name = "cmbRoomType";
-            this.cmbRoomType.Size = new System.Drawing.Size(219, 28);
+            this.cmbRoomType.Size = new System.Drawing.Size(327, 28);
             this.cmbRoomType.TabIndex = 0;
             // 
             // dtpBooking
@@ -80,9 +82,10 @@
             // lblRoomTpe
             // 
             this.lblRoomTpe.AutoSize = true;
-            this.lblRoomTpe.Location = new System.Drawing.Point(130, 114);
+            this.lblRoomTpe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRoomTpe.Location = new System.Drawing.Point(93, 102);
             this.lblRoomTpe.Name = "lblRoomTpe";
-            this.lblRoomTpe.Size = new System.Drawing.Size(102, 20);
+            this.lblRoomTpe.Size = new System.Drawing.Size(141, 25);
             this.lblRoomTpe.TabIndex = 2;
             this.lblRoomTpe.Text = "Room Type : ";
             // 
@@ -90,15 +93,16 @@
             // 
             this.txtBookingID.Location = new System.Drawing.Point(256, 176);
             this.txtBookingID.Name = "txtBookingID";
-            this.txtBookingID.Size = new System.Drawing.Size(219, 26);
+            this.txtBookingID.Size = new System.Drawing.Size(327, 26);
             this.txtBookingID.TabIndex = 4;
             // 
             // lblBookingID
             // 
             this.lblBookingID.AutoSize = true;
-            this.lblBookingID.Location = new System.Drawing.Point(130, 182);
+            this.lblBookingID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBookingID.Location = new System.Drawing.Point(93, 175);
             this.lblBookingID.Name = "lblBookingID";
-            this.lblBookingID.Size = new System.Drawing.Size(92, 20);
+            this.lblBookingID.Size = new System.Drawing.Size(124, 25);
             this.lblBookingID.TabIndex = 2;
             this.lblBookingID.Text = "Booking ID:";
             // 
@@ -106,15 +110,16 @@
             // 
             this.txtGuestName.Location = new System.Drawing.Point(256, 251);
             this.txtGuestName.Name = "txtGuestName";
-            this.txtGuestName.Size = new System.Drawing.Size(219, 26);
+            this.txtGuestName.Size = new System.Drawing.Size(327, 26);
             this.txtGuestName.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(141, 251);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(93, 250);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 20);
+            this.label1.Size = new System.Drawing.Size(88, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Guest : ";
             // 
@@ -129,27 +134,30 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(130, 441);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(94, 441);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.Size = new System.Drawing.Size(111, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Check In :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(130, 353);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(93, 353);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 20);
+            this.label3.Size = new System.Drawing.Size(154, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Booking Date :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(130, 532);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(94, 532);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(92, 20);
+            this.label4.Size = new System.Drawing.Size(128, 25);
             this.label4.TabIndex = 2;
             this.label4.Text = "Check Out :";
             // 
