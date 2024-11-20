@@ -58,12 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Booking Room.cs" />
-    <Compile Include="BookingRoom.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="BookingRoom.Designer.cs">
-      <DependentUpon>BookingRoom.cs</DependentUpon>
-    </Compile>
     <Compile Include="Guest.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Person.cs" />
@@ -86,9 +80,6 @@
     <Compile Include="View Reservations.Designer.cs">
       <DependentUpon>View Reservations.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="BookingRoom.resx">
-      <DependentUpon>BookingRoom.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -201,6 +192,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-menu-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9796954fd745b1c7ce3b8cb543713f3d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0e83fe416785d8c995f664d65a68a73e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hotel-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hotel-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hotel-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6f8c186caeaed01229592e41bc2b146c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-single-bed-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0adb037df19b86115f28d1c9aab99d84.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0adb037df19b86115f28d1c9aab99d841.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
